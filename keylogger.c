@@ -60,7 +60,7 @@ char *getEvent() {
     pclose(pipe);
     return event;
 }
-
+//Hecho por Jose David
 char *keycodeToChar(int code) {
     static char key[12]; // Espacio para teclas especiales
     switch(code) {
@@ -77,6 +77,7 @@ char *keycodeToChar(int code) {
         case 12: return "-";
         case 13: return "=";
         case 14: return "[BACKSPACE]";
+        //no robar xd
         case 15: return "[TAB]";
         case 16: return "q";
         case 17: return "w";
@@ -136,3 +137,4 @@ char *keycodeToChar(int code) {
             return key;
     }
 }
+//hecho el 15/08/2024
